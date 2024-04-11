@@ -7,10 +7,10 @@ body{
 }
 
 #header-nav {
-    background-color: #a90aff;
+    background-color: #000000;
     border-radius: 0;
     border: 0;    
-    border: solid rgb(255, 255, 255) 3px;
+    border: solid black 3px;
     margin-bottom: 0;
     align: left;
 }
@@ -42,7 +42,7 @@ body{
 }
 
 #text {       
-    margin: 2px;
+    margin: 10px;
     background-color: #000000;
     font-family: 'Oxygen'; 
     font-size: 1.3em;
@@ -166,7 +166,7 @@ height:auto
 }
 
 #menu a li:hover{
-    color: #13171c;
+    color: #05386B;
 }
 
 #menu ul{
@@ -223,18 +223,8 @@ height:auto
     margin-top: 10px;
 }
 
-button{
-    color: #EDF5E1;
-    background-color: #05386B;
-}
-
-button:hover{
-    color: #05386B;
-    background-color: #EDF5E1;
-}
-
 footer{
-    background-color: rgb(128, 128, 128);
+    background-color: gray;
     color: white;
     height: 140px;
     position: absolute;
@@ -245,6 +235,6 @@ footer{
     margin-right: 0px;
 }
 
-{
+a{
     text-decoration: none;
 }
